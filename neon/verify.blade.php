@@ -29,7 +29,7 @@
                             <p style="color: #888888; font-size: 14px; line-height: 1.8; margin: 0 0 30px;">&gt; VERIFICATION_CODE TRANSMITTED<br>&gt; EXPIRES_IN: 300_SECONDS</p>
                             <div style="text-align: center; margin: 40px 0; padding: 30px; background: rgba(0,255,136,0.05); border: 1px solid rgba(0,255,136,0.3);">
                                 <div style="font-size: 10px; color: #00ffff; letter-spacing: 4px; margin-bottom: 15px;">ACCESS_CODE:</div>
-                                <span style="color: #00ff88; font-size: 42px; font-weight: bold; letter-spacing: 15px; text-shadow: 0 0 10px #00ff88, 0 0 20px #00ff88; font-family: 'Courier New', monospace;">{{$code}}</span>
+                                <span style="color: #00ff88; font-size: 42px; font-weight: bold; letter-spacing: 10px; text-shadow: 0 0 10px #00ff88, 0 0 20px #00ff88; font-family: 'Courier New', monospace;">{{$code}}</span>
                             </div>
                             <p style="color: #666666; font-size: 12px; text-align: center; margin: 30px 0 0;">&gt; IF_NOT_REQUESTED: IGNORE_TRANSMISSION</p>
                             <div style="text-align: center; margin-top: 40px;">

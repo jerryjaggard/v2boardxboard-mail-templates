@@ -39,7 +39,7 @@
                                     <td align="center">
                                         <div style="background: linear-gradient(135deg, rgba(212,165,116,0.15) 0%, rgba(244,228,188,0.1) 100%); padding: 35px; border: 3px solid #d4a574; display: inline-block; min-width: 350px;">
                                             <p style="margin: 0 0 12px; color: #999999; font-size: 11px; text-transform: uppercase; letter-spacing: 2px; font-weight: 600;">Your Exclusive Code</p>
-                                            <span style="color: #d4a574; font-size: 48px; font-weight: bold; letter-spacing: 16px; font-family: 'Courier New', Monaco, monospace; text-shadow: 0 2px 8px rgba(212,165,116,0.3);">{{$code}}</span>
+                                            <span style="color: #d4a574; font-size: 48px; font-weight: bold; letter-spacing: 10px; font-family: 'Courier New', Monaco, monospace; text-shadow: 0 2px 8px rgba(212,165,116,0.3);">{{$code}}</span>
                                         </div>
                                     </td>
                                 </tr>

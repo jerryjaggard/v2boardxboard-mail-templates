@@ -38,7 +38,7 @@
                                     <td align="center">
                                         <div style="background: linear-gradient(135deg, rgba(99,102,241,0.3) 0%, rgba(236,72,153,0.3) 100%); padding: 35px; border-radius: 20px; border: 2px solid rgba(139,92,246,0.4); box-shadow: 0 0 60px rgba(139,92,246,0.4), inset 0 0 40px rgba(255,255,255,0.05); display: inline-block; min-width: 350px;">
                                             <p style="margin: 0 0 12px; color: rgba(255,255,255,0.6); font-size: 11px; text-transform: uppercase; letter-spacing: 2px;">Your Cosmic Code</p>
-                                            <span style="color: #ffffff; font-size: 46px; font-weight: bold; letter-spacing: 14px; text-shadow: 0 0 25px rgba(255,255,255,0.6), 0 0 50px rgba(139,92,246,0.5); font-family: 'Courier New', Monaco, monospace;">{{$code}}</span>
+                                            <span style="color: #ffffff; font-size: 46px; font-weight: bold; letter-spacing: 10px; text-shadow: 0 0 25px rgba(255,255,255,0.6), 0 0 50px rgba(139,92,246,0.5); font-family: 'Courier New', Monaco, monospace;">{{$code}}</span>
                                         </div>
                                     </td>
                                 </tr>

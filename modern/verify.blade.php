@@ -37,7 +37,7 @@
                                     <td align="center">
                                         <div style="background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%); padding: 30px; border-radius: 16px; border: 3px solid #667eea; box-shadow: 0 4px 20px rgba(102,126,234,0.15); display: inline-block;">
                                             <p style="margin: 0 0 10px; color: #718096; font-size: 12px; text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">Your Verification Code</p>
-                                            <span style="color: #667eea; font-size: 42px; font-weight: bold; letter-spacing: 12px; font-family: 'Courier New', Monaco, monospace;">{{$code}}</span>
+                                            <span style="color: #667eea; font-size: 42px; font-weight: bold; letter-spacing: 8px; font-family: 'Courier New', Monaco, monospace;">{{$code}}</span>
                                         </div>
                                     </td>
                                 </tr>
