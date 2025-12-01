@@ -1,41 +1,52 @@
-{{-- Dark Mode Template - Subscription Expiry Reminder --}}
+{{-- Dark Professional Template 2025 - Expiry --}}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Subscription Expiry Reminder</title>
+    <title>Subscription Expiring</title>
 </head>
-<body style="margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #0f0f0f;">
-    <table role="presentation" style="width: 100%; border-collapse: collapse;">
+<body style="margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);">
+    <table role="presentation" style="width: 100%; border-collapse: collapse; background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); padding: 50px 20px;">
         <tr>
-            <td align="center" style="padding: 50px 20px;">
-                <table role="presentation" style="width: 580px; max-width: 100%; border-collapse: collapse; background: #1a1a2e; border-radius: 16px; overflow: hidden; border: 1px solid #2d2d44;">
-                    <!-- Header -->
+            <td align="center">
+                <table role="presentation" style="width: 100%; max-width: 620px; border-collapse: collapse; background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%); border-radius: 16px; overflow: hidden; border: 1px solid rgba(239,68,68,0.2); box-shadow: 0 20px 60px rgba(0,0,0,0.5);">
                     <tr>
-                        <td style="padding: 40px 40px 25px; text-align: center; border-bottom: 1px solid #2d2d44;">
-                            <h1 style="margin: 0; color: #f87171; font-size: 24px; font-weight: 600;">⏰ Expiry Alert</h1>
+                        <td style="background: linear-gradient(135deg, rgba(239,68,68,0.2) 0%, rgba(220,38,38,0.15) 100%); padding: 45px 40px; text-align: center; border-bottom: 1px solid rgba(239,68,68,0.2);">
+                            <table role="presentation" style="width: 80px; height: 80px; margin: 0 auto 20px; background: rgba(239,68,68,0.15); border-radius: 50%; border: 2px solid rgba(239,68,68,0.3);">
+                                <tr><td style="text-align: center; vertical-align: middle;"><span style="font-size: 38px;">⚠️</span></td></tr>
+                            </table>
+                            <h1 style="margin: 0; color: #fca5a5; font-size: 26px; font-weight: 700;">Expiring in 24 Hours</h1>
                         </td>
                     </tr>
-                    <!-- Content -->
                     <tr>
-                        <td style="padding: 40px;">
-                            <p style="color: #d1d5db; font-size: 15px; line-height: 1.8; margin: 0 0 20px;">Dear Customer,</p>
-                            <div style="background: linear-gradient(135deg, #7f1d1d 0%, #450a0a 100%); border-left: 4px solid #f87171; padding: 20px; border-radius: 0 10px 10px 0; margin: 25px 0;">
-                                <p style="color: #fecaca; font-size: 16px; font-weight: 600; margin: 0;">
-                                    ⚠️ Your subscription will expire in <strong>24 hours</strong>!
-                                </p>
-                            </div>
-                            <p style="color: #9ca3af; font-size: 15px; line-height: 1.8; margin: 20px 0 0;">Renew now to avoid any service interruption. If you've already renewed, please ignore this message.</p>
-                            <div style="text-align: center; margin-top: 35px;">
-                                <a href="{{$url}}" style="display: inline-block; background: linear-gradient(135deg, #a855f7 0%, #6366f1 100%); color: #ffffff; text-decoration: none; padding: 14px 45px; border-radius: 10px; font-weight: 600; font-size: 15px;">Renew Now</a>
-                            </div>
+                        <td style="padding: 45px 40px;">
+                            <p style="color: #e2e8f0; font-size: 16px; margin: 0 0 10px; font-weight: 600;">Hello,</p>
+                            <p style="color: #cbd5e1; font-size: 15px; line-height: 1.8; margin: 0 0 30px;">
+                                Your {{$name}} subscription expires in <strong style="color: #ef4444;">24 hours</strong>. Renew now.
+                            </p>
+                            <table role="presentation" style="width: 100%; background: rgba(239,68,68,0.1); border: 2px solid #ef4444; border-radius: 12px; margin: 30px 0;">
+                                <tr>
+                                    <td style="padding: 25px; text-align: center;">
+                                        <p style="margin: 0 0 8px; color: #fca5a5; font-size: 18px; font-weight: 700;">⏰ 24 Hours Left</p>
+                                        <p style="margin: 0; color: #cbd5e1; font-size: 14px;">Maintain premium access</p>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table role="presentation" style="width: 100%; margin: 35px 0 20px;">
+                                <tr>
+                                    <td align="center">
+                                        <a href="{{$url}}" style="display: inline-block; background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%); color: #ffffff; text-decoration: none; padding: 18px 50px; border-radius: 10px; font-weight: 600; font-size: 16px; box-shadow: 0 4px 14px rgba(239,68,68,0.4);">
+                                            Renew Now
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
                         </td>
                     </tr>
-                    <!-- Footer -->
                     <tr>
-                        <td style="background: #16162a; padding: 25px 40px; text-align: center; border-top: 1px solid #2d2d44;">
-                            <p style="margin: 0; color: #6b7280; font-size: 13px;">© {{ date('Y') }} {{$name}} • Dark Mode</p>
+                        <td style="background: rgba(15,23,42,0.8); padding: 35px 40px; text-align: center; border-top: 1px solid rgba(148,163,184,0.1);">
+                            <p style="margin: 0; color: #94a3b8; font-size: 14px;">© {{ date('Y') }} {{$name}}</p>
                         </td>
                     </tr>
                 </table>
